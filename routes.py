@@ -9,9 +9,9 @@ def home():
 def welcome():
     return render_template('welcome.html')
 
-@app.route('/feelsgoodman')
-def feelsgoodman():
-    return render_template('feelsgoodman.html')
+@app.route('/danceman')
+def danceman():
+    return render_template('danceman.html')
 
 @app.route('/recipe')
 def recipe():
